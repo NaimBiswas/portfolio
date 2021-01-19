@@ -4,7 +4,7 @@ body{
 }
 
 #demo {
-    background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+    background-image: url('images/review-bg2.png');
     max-width: 900px;
     margin: auto
 }
@@ -64,7 +64,7 @@ body{
 }
 
 i {
-    background-color: rgb(223, 56, 89);
+    background-color: rgb(250, 30, 30);
     padding: 1.4rem
 }
 
