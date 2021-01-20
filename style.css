@@ -3,6 +3,7 @@ body{
    padding: 0;
  
 }
+/* Start Header Sytle  */
 header{
     position: fixed;
     z-index: 999;
@@ -48,6 +49,7 @@ ul li a{
    transition-duration: 1s;
    background-color: #ed2c66;
 }
+/* end header sytle  */
 #demo {
     background-image: url('images/review-bg2.png');
     max-width: 900px;
