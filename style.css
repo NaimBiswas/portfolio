@@ -34,7 +34,7 @@ ul li a{
     
 }
 .button{
-      background: rgba(0, 0, 0);
+   background: rgba(0, 0, 0);
     border: 5px solid #ed2c66;
     border-radius: inherit;
     margin-left: 16px;
@@ -95,6 +95,27 @@ section{
 }
 .partOne >h4 > .span{
    font-weight: 600;
+}
+.ssss{
+      margin-top: 30px;
+    padding-bottom: 40px;
+    margin-left: 34px;
+}
+.buttonActive{
+   background: #ed2c66;
+    border: 5px solid #ed2c66;
+    border-radius: inherit;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.buttonActive:hover{
+   background-color: rgba(255, 255, 255, 0);
+   border: 4px solid #ed2c66;
+   transition-duration: .5s;
+   cursor: pointer;
 }
 #demo {
     background-image: url('images/review-bg2.png');
