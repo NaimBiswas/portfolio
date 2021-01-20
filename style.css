@@ -53,11 +53,53 @@ ul li a{
 /* 2nd section start here  */
 section{
    background-color: #121212;
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+#secondSection{
+   padding-top: 200px;
+   color: #fff;
+}
+.bg-dark{
+   background-color:#0B0D0E!important;
+}
+.partOne{
+   position: relative;
+}
+.partTwo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.partOne > h3{
+   font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.partOne > h2{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    padding-left: 50px;
+}
+.partOne >h4{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.span{
+   color:#ed2c66;
+}
+.partOne >h4 > .span{
+   font-weight: 600;
 }
 #demo {
     background-image: url('images/review-bg2.png');
     max-width: 900px;
-    margin: auto
+    margin: auto;
 }
 
 .carousel-caption {
