@@ -66,10 +66,12 @@ section{
 .partOne{
    position: relative;
 }
-.partTwo {
-    position: absolute;
-    bottom: 0;
+.partTwo > img {
+    width: 43%;
     right: 0;
+    position: absolute;
+    top: -98px;
+    right: 54px;
 }
 .partOne > h3{
    font-size: 30px;
