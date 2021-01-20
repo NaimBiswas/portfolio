@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 body{
    margin: 0 auto;
    padding: 0;
@@ -177,7 +178,9 @@ section{
     padding-top: 40px;
 }
 .TirdSectionPartTwo p{
-   
+   color: #ffffffbf;
+    font-family: 'oranienbaum';
+    font-size: 25px;
 }
 
 .carousel-caption {
