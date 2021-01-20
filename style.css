@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&display=swap');
 body{
    margin: 0 auto;
    padding: 0;
@@ -153,6 +154,15 @@ section{
    border: 4px solid #ed2c66;
    transition-duration: .5s;
    cursor: pointer;
+}
+/* Second Section end here  */
+/* thrid section start here  */
+.ThirdSection{
+    font-family: 'teko';
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1.7px;
+    padding-bottom: 30px;
 }
 #demo {
     background-image: url('images/review-bg2.png');
