@@ -3,6 +3,10 @@ body{
    padding: 0;
  
 }
+a:hover{
+   text-decoration: none;
+   
+}
 /* Start Header Sytle  */
 header{
     position: fixed;
@@ -69,9 +73,11 @@ section{
     font-weight: 500;
     text-transform: uppercase;
     vertical-align: bottom;
-    padding-top: 28px;
-    line-height: 75px;
+    line-height: 67px;
     letter-spacing: .5px;
+}
+.secondPartLeftSide > span a{
+   color: #ed2c66;
 }
 .partOne{
    position: relative;
