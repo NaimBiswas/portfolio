@@ -3,6 +3,16 @@ body{
    padding: 0;
  
 }
+h2{
+   color: #fff;
+}
+h3{
+   color: #fff;
+   
+}
+h4{
+   color: #fff;
+}
 a:hover{
    text-decoration: none;
    
