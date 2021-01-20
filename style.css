@@ -51,6 +51,9 @@ ul li a{
 }
 /* end header sytle  */
 /* 2nd section start here  */
+section{
+   background-color: #121212;
+}
 #demo {
     background-image: url('images/review-bg2.png');
     max-width: 900px;
