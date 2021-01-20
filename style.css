@@ -1,8 +1,53 @@
 body{
    margin: 0 auto;
    padding: 0;
+ 
+}
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 33px;
+    background: #0B0D0E;
+    color: #fff;
+    box-shadow: 5px 5px 5px black;
+   
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+ul li a{
+   font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{
+   padding-left: 25px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ed2c66;
+    transition-duration: .8s;
+    
+}
+.button{
+      background: rgba(0, 0, 0);
+    border: 5px solid #ed2c66;
+    border-radius: inherit;
+    margin-left: 16px;
+    color: #ed2c66;
+    font-size: 18px;
+    font-weight: 700;
+   
 }
 
+.btn:hover{
+   color: #fff;
+   transition-duration: 1s;
+   background-color: #ed2c66;
+}
 #demo {
     background-image: url('images/review-bg2.png');
     max-width: 900px;
