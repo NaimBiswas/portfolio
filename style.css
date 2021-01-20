@@ -18,6 +18,11 @@ a:hover{
    
 }
 /* Start Header Sytle  */
+.logo{
+       font-size: 26px;
+    font-weight: 700;
+    
+}
 header{
     position: fixed;
     z-index: 999;
