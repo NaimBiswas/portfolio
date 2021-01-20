@@ -63,6 +63,16 @@ section{
 .bg-dark{
    background-color:#0B0D0E!important;
 }
+.secondPartLeftSide{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    padding-top: 28px;
+    line-height: 75px;
+    letter-spacing: .5px;
+}
 .partOne{
    position: relative;
 }
