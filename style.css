@@ -346,18 +346,22 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
        border: 1px solid #fff9;
 }
 .ProjectDone{
-       color: #ed2c66;
+      color: #ed2c66;
     font-size: 60px;
     font-family: 'Teko';
     font-weight: 600;
-    padding-top: 16px;
-    padding-left: 20px;
+    padding-top: 27px;
+    padding-left: 50px;
 }
 .ProjectDoneBottom{
-    font-size: 36px;
-    color: #ffffffd6;
-   
-    font-weight: 700;
+    color: #fff;
+    font-size: 29px;
+    text-align: center;
+    margin-top: -25px;
+    padding-bottom: 40px;
+    font-family: 'Oranienbaum';
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
 /* Fourht Section End Here  */
