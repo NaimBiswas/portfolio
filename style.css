@@ -22,6 +22,10 @@ a:hover{
    text-decoration: none;
    
 }
+a{
+   color: #ed2c66;
+   
+}
 a:not([href]):not([tabindex]) {
    color: #ed2c66;
     text-decoration: none;
@@ -150,6 +154,9 @@ section{
 }
 .fontfamaily{
    font-family: 'Oranienbaum';
+}.fontfamaily:hover a{
+   color: #fff;
+   transition-duration: 0.7s;
 }
 
 .buttonActive{
