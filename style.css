@@ -54,7 +54,8 @@ header{
 ul li a{
    font-size: 20px;
     font-weight: 600;
-    letter-spacing: 1.1px;
+    letter-spacing: 1.8px;
+    font-family: "teko";
     
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{
