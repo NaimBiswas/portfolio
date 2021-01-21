@@ -80,10 +80,13 @@ ul li a{
     font-weight: 700;
    
 }
-
+.button:hover a{
+   color: #fff;
+   transition-duration: .7s;
+}
 .btn:hover{
    color: #fff;
-   transition-duration: 1s;
+   transition-duration: .7s;
    background-color: #ed2c66;
 }
 /* end header sytle  */
