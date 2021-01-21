@@ -343,6 +343,7 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
    background-repeat: no-repeat;
    background-size: cover;
    margin-left: 90px;
+       border: 1px solid #fff9;
 }
 .ProjectDone{
        color: #ed2c66;
