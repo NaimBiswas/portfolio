@@ -225,6 +225,21 @@ section{
    color: #fff;
    transition: .7s;
 }
+/* Thired SEction End here  */
+
+/* Fourth Section Start Here  */
+.fourthSectionTop h2{
+    font-family: 'teko';
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1.7px;
+    padding-bottom:50px;
+}
+
+
+
+
+/* Fourht Section End Here  */
 .carousel-caption {
     position: initial;
     z-index: 10;
