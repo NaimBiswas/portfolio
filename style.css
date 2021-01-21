@@ -22,6 +22,10 @@ a:hover{
    text-decoration: none;
    
 }
+a:not([href]):not([tabindex]) {
+   color: #ed2c66;
+    text-decoration: none;
+}
 /* Start Header Sytle  */
 .logo{
        font-size: 26px;
