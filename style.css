@@ -206,6 +206,7 @@ section{
 }
 .explore:hover{
    color: #fff;
+   transition-duration: .7s;
 }
 .mmm{
    margin-top: 40px;
@@ -272,6 +273,7 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 }
 .card-body h4.card-title:hover{
    color: #ed2c66;
+   transition-duration: .7s;
 }
 .card-body p.card-text{
     color: #ffffffbf;
