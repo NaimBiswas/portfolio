@@ -235,7 +235,28 @@ section{
     letter-spacing: 1.7px;
     padding-bottom:50px;
 }
-
+.card{
+   background-color: #0B0D0E;
+   color: #ffffff;
+}
+svg.svg-inline--fa.fa-desktop.fa-w-18 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+  
+}
+svg.svg-inline--fa.fa-money-check.fa-w-20 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+  
+}
+svg.svg-inline--fa.fa-window-restore.fa-w-16 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+  
+}
 
 
 
