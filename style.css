@@ -206,6 +206,25 @@ section{
 .mmm{
    margin-top: 40px;
 }
+.bmt{
+    margin-top: 80px;
+}
+.exploreMore{
+       color: #ed2c66;
+    font-family: 'Teko';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 3px;
+   
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.button:hover .exploreMore{
+   color: #fff;
+   transition: .7s;
+}
 .carousel-caption {
     position: initial;
     z-index: 10;
