@@ -184,6 +184,11 @@ section{
     letter-spacing: 1.9px;
     font-size: 40px;
     padding-top: 40px;
+    
+}
+.TirdSectionPartTwo  h3:hover{
+    color: #ed2c66;
+    transition-duration: .5s;  
 }
 .TirdSectionPartTwo p{
    color: #ffffffbf;
@@ -198,7 +203,9 @@ section{
     letter-spacing: 1.1px;
     cursor: pointer;
 }
-
+.mmm{
+   margin-top: 40px;
+}
 .carousel-caption {
     position: initial;
     z-index: 10;
