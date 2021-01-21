@@ -338,6 +338,9 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 .projcet{
    margin-top: 70px;
 }
+.bgImage{
+   background-image: url(images/counter-shape.png);
+}
 /* Fourht Section End Here  */
 .carousel-caption {
     position: initial;
