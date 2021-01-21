@@ -342,7 +342,7 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
    background-image: url(images/counter-shape.png);
    background-repeat: no-repeat;
    background-size: cover;
-   margin-left: 90px;
+ 
        border: 1px solid #fff9;
 }
 .ProjectDone{
@@ -354,16 +354,10 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
     padding-left: 20px;
 }
 .ProjectDoneBottom{
-      font-size: 36px;
+    font-size: 36px;
     color: #ffffffd6;
-    padding-top: 70px;
     padding-left: -19px;
-    margin-left: -60px;
-    font-family: 'Oranienbaum';
     font-weight: 700;
-    padding-bottom: 34px;
-   
-    margin-top: 9px;
 }
 
 /* Fourht Section End Here  */
