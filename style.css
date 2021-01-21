@@ -305,8 +305,18 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
     font-weight: 600;
     font-size: 50px;
     letter-spacing: 1.5px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.fourthSectionBottomRight p{
+    font-family: 'Oranienbaum';
+    font-weight: 600;
+    letter-spacing: 1.5px;
     padding-bottom: 15px;
     padding-left: 50px;
+    color: #ffffffbf;
+    font-size: 22px;
+    line-height: 29px;
 }
 
 
