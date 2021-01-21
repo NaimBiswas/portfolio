@@ -343,6 +343,14 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
    background-repeat: no-repeat;
    background-size: cover;
 }
+.ProjectDone{
+       color: #ed2c66;
+    font-size: 60px;
+    font-family: 'Teko';
+    font-weight: 600;
+    padding-top: 16px;
+    padding-left: 20px;
+}
 /* Fourht Section End Here  */
 .carousel-caption {
     position: initial;
