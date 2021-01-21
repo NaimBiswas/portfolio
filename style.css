@@ -322,15 +322,15 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
    padding-left: 50px;
 }
 .AboutSmallHeader{
-       font-family: 'Teko';
-    font-size: 26px;
+        font-family: 'Teko';
+    font-size: 21px;
     letter-spacing: 0.6px;
-    padding-right: 10px;
+    padding-right: 7px;
 }
 .AboutSmallSubHeader{
-   color: #ffffffbf;
-    padding-top: 5px;
-    font-size: 18px;
+       color: #ffffffbf;
+    padding-top: 1px;
+    font-size: 17px;
 }
 .mt{
  margin-top: 27px;  
@@ -343,7 +343,7 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
    background-repeat: no-repeat;
    background-size: cover;
  
-       border: 1px solid #fff9;
+   border: 1px solid #fff9;
 }
 .ProjectDone{
       color: #ed2c66;
