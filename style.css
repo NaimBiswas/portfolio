@@ -340,6 +340,8 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 }
 .bgImage{
    background-image: url(images/counter-shape.png);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 /* Fourht Section End Here  */
 .carousel-caption {
