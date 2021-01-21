@@ -188,7 +188,11 @@ section{
 }
 
 .explore{
-   
+    font-size: 27px;
+    font-family: 'Teko';
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    cursor: pointer;
 }
 
 .carousel-caption {
