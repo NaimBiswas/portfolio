@@ -246,6 +246,11 @@ section{
 .card{
    background-color: #0B0D0E;
    color: #ffffff;
+   transition: all .5s ease;
+}
+.card:hover{
+   transform: translateY(15px);
+    transition-duration: .5s;
 }
 svg.svg-inline--fa.fa-desktop.fa-w-18 {
     font-size: 40px;
