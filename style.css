@@ -321,6 +321,12 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 .fourthSectionBottomRightBottom{
    padding-left: 50px;
 }
+.AboutSmallHeader{
+       font-family: 'Teko';
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    padding-right: 10px;
+}
 
 /* Fourht Section End Here  */
 .carousel-caption {
