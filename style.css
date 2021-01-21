@@ -262,6 +262,7 @@ section{
 .card:hover{
    transform: translateY(15px);
     transition-duration: .5s;
+        box-shadow: 0px 0px 20px #ed2c66;
 }
 svg.svg-inline--fa.fa-desktop.fa-w-18 {
     font-size: 40px;
