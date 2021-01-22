@@ -393,9 +393,24 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-
-
+.pricing-card-title{
+       font-size: 33px;
+    font-family: 'Teko';
+    font-weight: 500;
+}
+.technologyButton{
+       font-size: 20px;
+    font-family: 'Teko';
+    font-weight: 400;
+    padding-top: 10px;
+    border: 2px solid;
+    color: #ed2c66;
+}
+.technologyButton:hover{
+   background: #ed2c66;
+   transition-duration: .7s;
+   color: #fff;
+}
 /* Pricing Section End There  */
 .carousel-caption {
     position: initial;
