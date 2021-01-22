@@ -373,7 +373,9 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 /* Fourht Section End Here  */
 
 /* pricing Section Start Here  */
-
+.PricingSectionBorder{
+       border: 1px solid #5c58588c;
+}
 
 
 
