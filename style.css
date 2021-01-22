@@ -164,7 +164,7 @@ section{
 
 .buttonActive{
    background: #ed2c66;
-    border: 5px solid #ed2c66;
+    border: 3px solid #ed2c66;
     border-radius: inherit;
     color: #fff;
     font-size: 18px;
