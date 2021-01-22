@@ -376,6 +376,15 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 .PricingSectionBorder{
        border: 1px solid #5c58588c;
 }
+.PricingCardHeader{
+       background: #262626;
+    display: block;
+    padding-left: 22px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
