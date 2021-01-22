@@ -373,6 +373,14 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 /* Fourht Section End Here  */
 
 /* pricing Section Start Here  */
+.technology h2{
+   font-family: 'teko';
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
 .PricingSectionBorder{
        border: 1px solid #5c58588c;
 }
