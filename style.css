@@ -422,6 +422,14 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
     padding-left: 50px;
     
 }
+.reviewDody{
+   color: #ed2c66;
+       color: #ed2c66;
+    font-family: 'Oranienbaum';
+    font-style: italic;
+    font-size: 21px;
+    letter-spacing: .9px;
+}
 .carousel-caption {
     position: initial;
     z-index: 10;
