@@ -509,3 +509,52 @@ i {
     opacity: unset
 }
 /* Review Section End There  */
+/* Contact Section Start Here 
+*/
+.contactSection h2{
+   font-family: 'teko';
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.ContactRightHeader{
+        font-family: 'Teko';
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    padding-right: 7px;
+}
+.ContactRightHeaderSpan{
+       color: #ffffffbf;
+    padding-top: 1px;
+    font-size: 20px;
+}
+.Cmt{
+   margin-top: 60px;
+}
+.social{
+   margin-left: 20px;
+}
+.SICON{
+       margin-right: 15px;
+    font-size: 27px;
+    margin-top: 50px;
+    border-radius: 1px solid red;
+    border: 3px solid;
+    border-radius: 50%;
+    padding-top: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 6px;
+    transition: .7s;
+}
+.SICON:hover{
+    background: red;
+    color: #fff;
+    border: 3px solid black;
+    transition-duration: .7s;
+   transform: rotate3d(1, 1, 1, 45deg);
+}
+
+/* Contact Section End There  */
