@@ -278,6 +278,12 @@ section{
 .overlay{
    position: relative;
 }
+.overFlowStyle{
+   text-align: center;
+}
+#ButtonCenter{
+   margin-top: 32%;
+}
 
 /* Thired SEction End here  */
 
