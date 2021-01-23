@@ -247,6 +247,38 @@ section{
 .fourthSectionCard {
     margin-bottom: 70px;
 }
+.overlaytw{
+   position: relative;
+  
+}
+.overFlowStyle{
+   position:absolute;
+   top: 0;
+   left: 0;
+   background:#6610f28a;
+   opacity: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition-duration: .5s;
+  
+ }
+ .overFlowStyle:hover  {
+  position:absolute;
+   top: 0;
+   left: 0;
+   background: #6610f28a;
+  
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+    transition-duration: .5s;
+   
+}
+.overlay{
+   position: relative;
+}
+
 /* Thired SEction End here  */
 
 /* Fourth Section Start Here  */
