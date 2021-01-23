@@ -583,4 +583,13 @@ i {
 .MessageSend:hover {
     transition-duration: 1.5s;
 }
+footer{
+   background-color: #121212;
+}
+.footer h3{
+    margin-bottom: 0;
+    font-family: 'Oranienbaum';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* Contact Section End There  */
