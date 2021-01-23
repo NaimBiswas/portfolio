@@ -556,5 +556,31 @@ i {
     transition-duration: .7s;
    transform: rotate3d(1, 1, 1, 45deg);
 }
-
+.FormInput{
+     background: #121212;
+    border: 3px solid #ffffff6e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: initial;
+}
+.form-control:focus {
+    color: #fff;
+    background-color:#121212;
+    border-color: #ed2c66;
+    outline: 0;
+ 
+}
+.MessageSend {
+    width: 100%;
+    border: 3px solid #ed2c66;
+    color: #ed2c66;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Oranienbaum';
+    letter-spacing: 3px;
+    transition: 1.5s;
+}
+.MessageSend:hover {
+    transition-duration: 1.5s;
+}
 /* Contact Section End There  */
