@@ -412,6 +412,8 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
    color: #fff;
 }
 /* Pricing Section End There  */
+/* review Section Start Here  */
+
 .carousel-caption {
     position: initial;
     z-index: 10;
@@ -490,3 +492,4 @@ i {
     transition: none;
     opacity: unset
 }
+/* Review Section End There  */
