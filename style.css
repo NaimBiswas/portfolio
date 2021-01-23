@@ -413,7 +413,14 @@ svg.svg-inline--fa.fa-window-restore.fa-w-16 {
 }
 /* Pricing Section End There  */
 /* review Section Start Here  */
-
+.Review h2{
+   font-family: 'teko';
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
 .carousel-caption {
     position: initial;
     z-index: 10;
