@@ -640,5 +640,135 @@ footer{
    }
    
 }
+@media(max-width:976px){
+   .logo{
+      font-size: 22px;
+   }
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    padding-left: 12px;
+}
+
+}
+@media (max-width: 976px){
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+      padding-left: 12px;
+   }
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+      padding-left: 25px;
+   }
+   .navbar-light .navbar-nav .nav-link {
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+   }
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    padding-left: 13px;
+   }
+   .partTwo > img {
+    width: 61%;
+    position: absolute;
+    bottom: -21px;
+    right: -60px;
+   }
+   .TirdSectionPartTwo p {
+    color: #ffffffbf;
+    font-family: 'oranienbaum';
+    font-size: 19px;
+   }
+   .TirdSectionPartTwo h3 {
+   
+    font-size: 34px;
+   
+   }
+   .explore {
+    font-size: 24px;
+   
+   }
+  .PaddingTop{
+     margin-top: 53px;
+  }
+  svg.svg-inline--fa.fa-desktop.fa-w-18 {
+    font-size: 32px;
+   }
+   .card-body h4.card-title {
+    font-size: 32px;
+   }
+   .card-body p.card-text {
+    font-size: 18px;
+   }
+   .fourthSectionBottomRight h3 {
+   
+    font-size: 30px;
+   
+   }
+   .fourthSectionBottomRight p {
+    font-size: 18px;
+    line-height: 23px;
+   }
+   .AboutSmallHeader {
+   
+    font-size: 17px;
+  
+   }
+   .AboutSmallSubHeader {
+    color: #ffffffbf;
+    padding-top: 1px;
+    font-size: 15px;
+   }
+   .mt {
+    margin-top: 96px;
+   }
+   .ProjectDone {
+    
+    font-size: 40px;
+   
+    padding-top: 17px;
+    padding-left: 25px;
+   }
+   .ProjectDoneBottom {
+   
+    font-size: 27px;
+    margin-top: -22px;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+   }
+   .technology h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  
+   }
+   .pricing-card-title {
+    font-size: 27px;
+   }
+   .Review h2 {
+    font-size: 40px;
+   }
+   .contactSection h2 {
+    font-size: 40px;
+   }
+   .ContactRightHeader {
+   
+    font-size: 24px;
+ 
+   }
+   .ContactRightHeaderSpan {    font-size: 18px;
+   }
+   .SICON {
+    font-size: 18px;
+   }
+   .copyright{
+      font-size: 24px;
+   }
+   .ThirdSection {  
+    font-size: 42px;
+   }
+   .fourthSectionTop h2 {
+    font-family: 'teko';
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 1.7px;
+    padding-bottom: 50px;
+   }
+         
+}
 
 /* End Responsive  here  */
