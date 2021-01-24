@@ -623,6 +623,7 @@ i {
 }
 footer{
    background-color: #121212;
+       border-top: 1px solid #262626;
 }
 .footer h3{
     margin-bottom: 0;
