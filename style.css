@@ -633,6 +633,12 @@ footer{
 }
 /* Contact Section End There  */
 /* Start Responsive from here  */
-
+@media(max-width:1028px){
+   .SICON {
+    margin-right: 10px;
+    font-size: 21px;
+   }
+   
+}
 
 /* End Responsive  here  */
