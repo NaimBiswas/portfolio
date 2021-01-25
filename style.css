@@ -4,7 +4,7 @@
 body{
    margin: 0 auto;
    padding: 0;
-  
+  background-color: #c5059c;
  
 }
 h2{
@@ -837,6 +837,19 @@ footer{
 @media(max-width:777px){
    .ReviewTopMargin {
     margin-top: 35px;
+   }
+}
+@media (max-width: 976px){
+.partTwo > img {
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   }
+   .row {
+    
+    margin-right: 0; 
+   margin-left: 0;
    }
 }
 
