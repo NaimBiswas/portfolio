@@ -778,7 +778,20 @@ footer{
    
     justify-content: space-between;
     margin-bottom: 119px;
+   }
 }
+@media(max-width: 992px){
+   .forImages {
+  
+   width: 100%;
+   }
+   .secondPartLeftSide {
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+   }
 }
 
 /* End Responsive  here  */
