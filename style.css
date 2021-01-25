@@ -22,6 +22,13 @@ a:hover{
    text-decoration: none;
    
 }
+h3 a{
+   transition: .7s;
+}
+h3:hover a{
+   color: #fff;
+   transition-duration: .7s;
+}
 a{
    color: #ed2c66;
    
