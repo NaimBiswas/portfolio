@@ -796,6 +796,25 @@ footer{
     width: 100%;
     padding-bottom: 50px;
    }
+   .card-deck{
+      display: block;
+   }
+   .PricPadding{
+      margin-bottom: 50px;
+   }
+   .social {
+    justify-content: space-between;
+   }
+   .Cmt {
+    margin-top: 40px;
+    justify-content: space-between;
+   }
+   
+}
+@media (min-width: 576px){
+   .card-deck .card {
+      margin-bottom: 15px; 
+   }
 }
 
 /* End Responsive  here  */
