@@ -834,5 +834,10 @@ footer{
       padding-left: 12px;;
    }
 }
+@media(max-width:777px){
+   .ReviewTopMargin {
+    margin-top: 35px;
+   }
+}
 
 /* End Responsive  here  */
