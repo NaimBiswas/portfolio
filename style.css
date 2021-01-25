@@ -770,5 +770,15 @@ footer{
    }
          
 }
+@media(max-width: 838px){
+   .secondPartLeftSide {
+  
+    display: flex;
+    text-align: center;
+   
+    justify-content: space-between;
+    margin-bottom: 119px;
+}
+}
 
 /* End Responsive  here  */
