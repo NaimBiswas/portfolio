@@ -7,7 +7,23 @@ body{
   background-color: #121212;
  
 }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+background-image: linear-gradient(
+180deg
+, #231557 0%, #44107A 20%, #FF1361 69%, #fff800 100%);;  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+   background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
 h2{
    color: #fff;
    
