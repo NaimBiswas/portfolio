@@ -13,9 +13,17 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
 background-image: linear-gradient(
-180deg
-, #231557 0%, #44107A 20%, #FF1361 69%, #fff800 100%);;  /* color of the tracking area */
+360deg
+, #231557 0%, #44107A 20%, #FF1361 69%, #fff800 100%);
+
 }
+
+
+
+
+
+
+
 
 body::-webkit-scrollbar-thumb {
    background-color: #FFE53B;
@@ -96,14 +104,33 @@ ul li a{
 }
 .button{
    background: rgba(0, 0, 0);
-    border: 3px solid #ed2c66;
-    border-radius: inherit;
+    /* border: 3px solid #ed2c66;
+    border-radius: inherit; */
     margin-left: 16px;
-    color: #ed2c66;
+    /* color: #ed2c66; */
+   
     font-size: 18px;
     font-weight: 700;
-   
+    background:linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+     background-size: 600%;
+     animation: anime 4s linear infinite;
+      color: #0B0D0E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
+ @keyframes anime {
+   0%{ background-position:0% 50%}
+   50%{background-position: 100% 50%}
+   100%{background-position: 0% 50%}
+
+}
+.button a{
+   color: #0B0D0E;
+   font-size: 18px;
+}
+
 .button:hover a{
    color: #fff;
    transition-duration: .7s;
