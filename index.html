@@ -42,12 +42,13 @@
          src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"></script>
 
       <script type='text/babel'>
+         const NavLink = ReactRouterDOM.NavLink;
          const Link = ReactRouterDOM.Link;
          const Route = ReactRouterDOM.Route;
 
          const App = () => (
 
-            <ReactRouterDOM.HashRouter >
+            <ReactRouterDOM.BrowserRouter >
                <header id="output">
                   <div class="container">
                      <div class="row">
@@ -63,20 +64,20 @@
                               <div class=" my-2 my-lg-0">
                                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                                     <li class="nav-item mt-3">
-                                       <Link class="nav-link"
-                                          to='/'>Home <span class="sr-only">(current)</span></Link>
-                                    </li>
-                                    <li class="nav-item mt-3">
-                                       <Link class="nav-link"
-                                          to='/#about'>About <span class="sr-only">(current)</span></Link>
-                                    </li>
-                                    <li class="nav-item mt-3">
-                                       <Link class="nav-link"
-                                          to='/portfolio'>Portfolio <span class="sr-only">(current)</span></Link>
+                                       <a    class="nav-link"
+                                          href='#home'>Home <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item mt-3">
                                        <a class="nav-link"
-                                          href="#contact">Contact <span class="sr-only">(current)</span></a>
+                                          href='#about'>About <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item mt-3">
+                                       <a class="nav-link"
+                                         href='#portfolio'>Portfolio <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item mt-3">
+                                       <a class="nav-link"
+                                          href='#contact'>Contact <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li>
                                     </li>
@@ -95,17 +96,17 @@
                      </div>
                   </div>
                </header>
-               <div class="" style={{paddingTop:'150px'}}></div>
+               <div id='home' class="" style={{paddingTop:'150px'}}></div>
 
                <Route path="/portfolio" exact component={Portfolio} />
                <Route path="/" exact component={Home} />
-            </ReactRouterDOM.HashRouter >
+            </ReactRouterDOM.BrowserRouter >
          )
 
          const Home = () =>
             <div class="">
-               <section id="secondSection">
-                  <div class="container">
+               <section  id="secondSection">
+                  <div id='' class="container">
                      <div class="row">
                         <div class="col-lg-2 col-md-12  col-sm-12 col-xs-12 secondPartLeftSide">
                            <span class="d-block"><a href="https://www.linkedin.com/in/naim-biswas/">Ln</a> </span>
@@ -138,7 +139,7 @@
                </section>
                { /*  Portfolio section */}
                <section >
-                  <div class="container">
+                  <div id='portfolio' class="container">
                      <div class="row">
                         <div class="col-12">
                            <h2 class="text-center ThirdSection">Some In Depth <span class="span">Case Study</span> Of My <br />
@@ -397,7 +398,7 @@
                   src="images/about2.jpg"
                   alt="" />
             </div>
-            <div  class="col-lg-7 col-md-12 col-sm-12 col-xs-12 fourthSectionBottomRight">
+            <div id='about'  class="col-lg-7 col-md-12 col-sm-12 col-xs-12 fourthSectionBottomRight">
                <h3>Short Story <span class="span"> About Me. </span> How I Came In Web Development Sector.
                </h3>
                <p>
