@@ -48,7 +48,7 @@
 
          const App = () => (
 
-            <ReactRouterDOM.HashRouter >
+            <ReactRouterDOM.BrowserRouter >
                <header id="output">
                   <div class="container">
                      <div class="row">
@@ -65,19 +65,19 @@
                                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                                     <li class="nav-item mt-3">
                                        <a    class="nav-link"
-                                          href='#'>Home <span class="sr-only">(current)</span></a>
+                                          href='/'>Home <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item mt-3">
                                        <a class="nav-link"
-                                          href='#'>About <span class="sr-only">(current)</span></a>
+                                          href='#about'>About <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item mt-3">
                                        <a class="nav-link"
-                                         href='#'>Portfolio <span class="sr-only">(current)</span></a>
+                                         href='#portfolio'>Portfolio <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item mt-3">
                                        <a class="nav-link"
-                                          href='#'>Contact <span class="sr-only">(current)</span></a>
+                                          href='#contact'>Contact <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li>
                                     </li>
@@ -100,7 +100,7 @@
 
                <Route path="/portfolio" exact component={Portfolio} />
                <Route path="/" exact component={Home} />
-            </ReactRouterDOM.HashRouter >
+            </ReactRouterDOM.BrowserRouter >
          )
 
          const Home = () =>
