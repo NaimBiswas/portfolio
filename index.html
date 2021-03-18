@@ -48,7 +48,7 @@
 
          const App = () => (
 
-            <ReactRouterDOM.BrowserRouter >
+            <ReactRouterDOM.HashRouter >
                <header id="output">
                   <div class="container">
                      <div class="row">
@@ -68,8 +68,8 @@
                                           to='/'>Home <span class="sr-only">(current)</span></Link>
                                     </li>
                                     <li class="nav-item mt-3">
-                                       <a class="nav-link"
-                                          href='#about'>About <span class="sr-only">(current)</span></a>
+                                       <Link class="nav-link"
+                                          to='#about'>About <span class="sr-only">(current)</span></Link>
                                     </li>
                                     <li class="nav-item mt-3">
                                        <a class="nav-link"
@@ -100,7 +100,7 @@
             
                <Route path="/portfolio" exact component={Portfolio} />
                <Route path="/" exact component={Home} />
-            </ReactRouterDOM.BrowserRouter >
+            </ReactRouterDOM.HashRouter >
          )
 
          const Home = () =>
