@@ -20,8 +20,10 @@ background-image: linear-gradient(
 
 
 
-
-
+/* for min app image with  */
+.appImageMinWidth{
+   min-width: 570px;
+}
 
 
 
